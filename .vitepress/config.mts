@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "TOGAPhotos上传指南",
+  head: [["link", { rel: "icon", href: "https://cos-125-tp-cdn.794td.cn/assets/favicon.ico" }]],
   themeConfig: {
     footer: {
       message: "Built with VitePress",
